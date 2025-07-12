@@ -1,0 +1,8 @@
+use("sample_training")
+
+db.zips.find({state:"NY"}).count()
+
+
+db.zips.find({state:"NY"}).limit(5)
+
+db.zips.find({state:"NY"}).pretty()
